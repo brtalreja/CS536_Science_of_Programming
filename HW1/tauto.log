@@ -1,0 +1,7 @@
+ T => P -> Q \/ P
+T
+T \/ Q			Dom
+(~P \/ P) \/ Q	LEM
+~P \/ (P \/ Q)	Assoc
+~P \/ (Q \/ P)	Comm
+P -> Q \/ P		DC

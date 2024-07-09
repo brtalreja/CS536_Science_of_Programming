@@ -1,0 +1,7 @@
+ P -> (Q -> R) => (P /\ Q) -> R
+P -> (Q -> R)
+P -> (~Q \/ R)		DC
+~P \/ (~Q \/ R)		DC
+(~P \/ ~Q) \/ R		Assoc
+~(P /\ Q) \/ R		DM
+(P /\ Q) -> R		DC
